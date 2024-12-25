@@ -25,7 +25,7 @@ public class ReadFromExcelFile {
 		System.out.println("last row : " + totalrows + " , Last column : " + totalcolumns);
 
 		
-
+//Get First row and Third column value
 	for (int r = 0; r <= sheet.getLastRowNum(); r++) {
 		if(r==1) {
 		Row row = sheet.getRow(1);
